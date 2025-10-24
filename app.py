@@ -16,7 +16,7 @@ hoy = date.today()
 # --- CONEXIÓN A LA BD ---
 def connection():
     return sqlitecloud.connect(
-        "sqlitecloud://cg4uwk4rvk.g3.sqlite.cloud:8860/dbLotes.db?apikey=XWNiUbNaDRwC0kzEwUvgLN0YH8bshqybwpyVzob78vw"
+        "sqlitecloud://cf1wheejhk.g4.sqlite.cloud:8860/dbLotes.db?apikey=O8ZthZ5mGnHzt1FZyfsnPrYLFPbOVeOzsVguyFR9efM"
     )
 
 
@@ -516,3 +516,4 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
+
